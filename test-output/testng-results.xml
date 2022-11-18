@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-18T11:09:10 IST" name="Default suite" finished-at="2022-11-18T11:09:19 IST" duration-ms="8873">
+    <groups>
+    </groups>
+    <test started-at="2022-11-18T11:09:10 IST" name="Default test" finished-at="2022-11-18T11:09:19 IST" duration-ms="8873">
+      <class name="com.test.TestEndpoints">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.test.TestEndpoints@6e20b53a]" started-at="2022-11-18T11:09:10 IST" name="beforeTest" finished-at="2022-11-18T11:09:10 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testPostUser()[pri:1, instance:com.test.TestEndpoints@6e20b53a]" started-at="2022-11-18T11:09:10 IST" name="testPostUser" finished-at="2022-11-18T11:09:14 IST" duration-ms="3666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:com.test.TestEndpoints@6e20b53a]" started-at="2022-11-18T11:09:14 IST" name="testGetUserByName" finished-at="2022-11-18T11:09:15 IST" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUsernameByName()[pri:3, instance:com.test.TestEndpoints@6e20b53a]" started-at="2022-11-18T11:09:15 IST" name="testUpdateUsernameByName" finished-at="2022-11-18T11:09:17 IST" duration-ms="2426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUsernameByName -->
+        <test-method signature="testDeleteUsernameByName()[pri:4, instance:com.test.TestEndpoints@6e20b53a]" started-at="2022-11-18T11:09:17 IST" name="testDeleteUsernameByName" finished-at="2022-11-18T11:09:19 IST" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUsernameByName -->
+      </class> <!-- com.test.TestEndpoints -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
